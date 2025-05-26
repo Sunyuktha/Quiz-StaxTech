@@ -1,9 +1,6 @@
 📚 Quiz Test Website
 This is a simple and interactive Quiz Test Website developed using HTML, CSS, and JavaScript as part of an internship project. The website allows users to answer multiple-choice questions and view their final score at the end of the quiz.
 
-🔗 Live Demo
-(Optional: Add your deployed site link here, e.g. GitHub Pages or Netlify)
-
 🚀 Features
 📝 Multiple-choice quiz questions
 
@@ -45,9 +42,6 @@ Internship Role: Front-end Development Intern
 Task: Build a basic Quiz Website using front-end technologies
 
 Skills Applied: HTML, CSS, JavaScript, UI Design, DOM Manipulation
-
-📷 Screenshots
-(Optional: Add screenshots or screen recordings of your quiz app here)
 
 📬 Contact
 If you have any feedback or questions, feel free to connect:

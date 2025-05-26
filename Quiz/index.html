@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Game</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="welcome-screen" class="quiz-container">
+    <h1>Welcome to the Web Development Quiz!</h1>
+    <p>Select a category to start:</p>
+    <button onclick="startQuiz('Web Development')">Web Development</button>
+    <button onclick="startQuiz('UI/UX')">UI/UX</button>
+    <button onclick="startQuiz('Software Development')">Software Development</button>
+  </div>
+
+  <div id="quiz-box" class="quiz-container hide">
+    <div id="timer">Time left: <span id="time">30</span>s</div>
+    <div id="question"></div>
+    <div id="options"></div>
+    <button id="next-btn">Next</button>
+  </div>
+
+  <div id="result-box" class="quiz-container hide">
+    <h2>Your Score: <span id="score"></span></h2>
+    <button onclick="restartQuiz()">Play Again</button>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
